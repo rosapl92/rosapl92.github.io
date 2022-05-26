@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>input esercizio</title>
+</head>
+<body>
+<table>
+    <caption>prova</caption>
+    <form id="prova" autocomplete="on">
+        <tr>
+            <td><label for="name">Nome*</label></td>
+            <td><input id="name" type="text" name="name" placeholder="Nome" required></td>
+        </tr>
+        <td><label for="last name">Cognome*</label></td>
+        <td><input id="last name" type="text" name="last name" placeholder="cognome" required></td>
+        </tr>
+        <tr>
+            <td><label for="addres">indirizzo*</label></td>
+            <td><input type="text" name="addres" id="addres" placeholder="indirizzo" required></td>
+        </tr>
+        <tr>
+            <td><label for="po">civico*</label></td>
+            <td><input type="number" name="po" id="po" placeholder="civico" required></td>
+        </tr>
+        <tr>
+            <td><label for="cap">cap</label></td>
+            <td><input type="number" name="cap" id="cap" placeholder="cap"></td>
+        </tr>
+        <tr>
+            <td><label for="city">città*</label></td>
+            <td><input type="text" name="city" id="city" placeholder="città" required></td>
+        </tr>
+        <td><label for="province">provincia</label></td>
+        <td><select name="province" id="province">
+            <option value="lecco">LC</option>
+            <option value="como">CO</option>
+            <option value="monza">MB</option>
+            <option value="milano">MI</option>
+            <option value="varese">VA</option>
+            <option value="other" selected>Altro</option>
+        </select></td>
+        <tr>
+            <td><label for="country">nazionalità</label></td>
+            <td><input type="text" name="country" id="country" placeholder="nazionalità"></td>
+        </tr>
+        <tr>
+            <td><label for="telephon">telefono*</label></td>
+            <td><input type="tel" name="telephon" id="telephon" placeholder="telefono" required></td>
+        </tr>
+        <tr>
+            <td><label for="mail">mail</label></td>
+            <td><input type="email" name="mail" id="mail" placeholder="mail"></td>
+        </tr>
+        <tr>
+            <td><label for="note">note</label></td>
+            <td><textarea name="Note" id="note" cols="30" rows="10" placeholder="Note"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="invia"></td>
+
+    </form>
+</table>
+<button type="reset" form="prova">Reset</button>
+
+</body>
+</html>
