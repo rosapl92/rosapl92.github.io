@@ -5,67 +5,74 @@
     <title>input esercizio</title>
 </head>
 <body>
-<table>
-    <caption>prova</caption>
-    <form id="prova" method="get" action="https://www.postb.in/1653598598059-5042797243222" autocomplete="on">
 
-        <tr>
-            <th>campo</th>
-            <th>input</th>
-        </tr>
-        <tr>
-            <td><label for="name">Nome*</label></td>
-            <td><input id="name" type="text" name="name" placeholder="Nome" required></td>
-        </tr>
-        <td><label for="last name">Cognome*</label></td>
-        <td><input id="last name" type="text" name="last name" placeholder="cognome" required></td>
-        </tr>
-        <tr>
-            <td><label for="addres">indirizzo*</label></td>
-            <td><input type="text" name="addres" id="addres" placeholder="indirizzo" required></td>
-        </tr>
-        <tr>
-            <td><label for="po">civico*</label></td>
-            <td><input type="number" name="po" id="po" placeholder="civico" required></td>
-        </tr>
-        <tr>
-            <td><label for="cap">cap</label></td>
-            <td><input type="number" name="cap" id="cap" placeholder="cap"></td>
-        </tr>
-        <tr>
-            <td><label for="city">città*</label></td>
-            <td><input type="text" name="city" id="city" placeholder="città" required></td>
-        </tr>
-        <td><label for="province">provincia</label></td>
-        <td><select name="province" id="province">
+<form id="prova" method="post" action="https://www.postb.in/1653668269007-3260682474356" autocomplete="on">
+
+    <div>
+        <div style="display: inline"><label for="name">Nome*</label></div>
+        <div style="display: inline"><input id="name" type="text" name="name" placeholder="Nome" required></div>
+    </div>
+
+    <div>
+        <div style="display: inline"><label for="last name">Cognome*</label></div>
+        <div style="display: inline"><input id="last name" type="text" name="last name" placeholder="cognome" required>
+        </div>
+    </div>
+
+    <div>
+        <div style="display: inline"><label for="addres">indirizzo*</label></div>
+        <div style="display: inline"><input type="text" name="addres" id="addres" placeholder="indirizzo" required></div>
+    </div>
+
+    <div>
+        <div style="display: inline"><label for="po">civico*</label></div>
+        <div style="display: inline"><input type="number" name="po" id="po" placeholder="civico" required></div>
+    </div>
+
+    <div>
+        <div style="display: inline"><label for="cap">cap</label></div>
+        <div style="display: inline"><input type="number" name="cap" id="cap" placeholder="cap"></div>
+    </div>
+
+    <div>
+        <div style="display: inline"><label for="city">città*</label></div>
+        <div style="display: inline"><input type="text" name="city" id="city" placeholder="città" required></div>
+    </div>
+
+    <div>
+        <div style="display: inline"><label for="province">provincia</label></div>
+       <div style="display: inline"><select name="province" id="province">
             <option value="lecco">LC</option>
             <option value="como">CO</option>
             <option value="monza">MB</option>
             <option value="milano">MI</option>
             <option value="varese">VA</option>
             <option value="other" selected>Altro</option>
-        </select></td>
-        <tr>
-            <td><label for="country">nazionalità</label></td>
-            <td><input type="text" name="country" id="country" placeholder="nazionalità"></td>
-        </tr>
-        <tr>
-            <td><label for="telephon">telefono*</label></td>
-            <td><input type="tel" name="telephon" id="telephon" placeholder="telefono" required></td>
-        </tr>
-        <tr>
-            <td><label for="mail">mail</label></td>
-            <td><input type="email" name="mail" id="mail" placeholder="mail"></td>
-        </tr>
-        <tr>
-            <td><label for="note">note</label></td>
-            <td><textarea name="Note" id="note" cols="30" rows="10" placeholder="Note"></textarea></td>
-        </tr>
-        <tr>
-            <td><input type="submit" value="invia"></td>
+       </select></div>
+    </div>
 
-    </form>
-</table>
+    <div>
+        <div style="display: inline"><label for="country">nazionalità</label></div>
+        <div style="display: inline"><input type="text" name="country" id="country" placeholder="nazionalità"></div>
+    </div>
+
+    <div>
+        <div style="display: inline"><label for="telephon">telefono*</label></div>
+        <div style="display: inline"><input type="tel" name="telephon" id="telephon" placeholder="telefono" required></div>
+    </div>
+
+    <div>
+        <div style="display: inline"><label for="mail">mail</label></div>
+        <div style="display: inline"><input type="email" name="mail" id="mail" placeholder="mail"></div>
+    </div>
+    <div>
+        <div style="display: inline"><label for="note">note</label></div>
+        <div style="display: inline"><textarea name="Note" id="note" cols="30" rows="10" placeholder="Note"></textarea></div>
+    </div>
+    <div>
+        <input type="submit" value="invia">
+    </div>
+</form>
 <button type="reset" form="prova">Reset</button>
 
 </body>
